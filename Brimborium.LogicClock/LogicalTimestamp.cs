@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Brimborium.LogicClock;
+﻿namespace Brimborium.LogicClock;
 
 [DebuggerDisplay($"{{{nameof(ToString)}(),nq}}")]
 public readonly struct LogicalTimestamp :
